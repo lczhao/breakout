@@ -8,22 +8,21 @@ Each brick hit will award player with 20 score points.
 If the ball goes out of the bottom border, player lose a live.
 The game ends when the player ran out of live (3 lives in total)
 
+		Compile the game:
 		$ make                              # makes the executable
 		$ ./breakout [frame_rate] [speed]   # plays the game with specified frame rate
-                                    # and speed (default 30, 300 is set)
+                                            # and speed (default 30, 300 is set)
 
-Note: speed > frame rate is required, and it works better when speed is  
-      divisable by frame_rate (no rounding required for the program)  
-      frame_rate can ranged between 30 ~ 60  
+**Note**: speed > frame rate is required, and it works better when speed is divisable by frame_rate (no rounding required for the program) frame_rate can ranged between 30 ~ 60  
 
 Controls:
 -----------
   This game supports both mouse and keyboard  
 <table>
   <tr>
-    <td>Keyboard</td>
-    <td>Mouse</td>
-    <td>Meaning</td>
+    <th>Keyboard</th>
+    <th>Mouse</th>
+    <th>Meaning</th>
   </tr>
   <tr>
     <td>A</td>
@@ -69,7 +68,5 @@ Features
     the highscore and your score, press space will take you back to the 
     start screen
 
-**Pro tip:**
-  Levels are designed in a way such that if you get your ball to the top  
-  of all bricks, it would be easier (especially in level 4 and 5)  
-  Use the level design and controllable ball direction to your advantage!  
+**Pro tip:**  
+  Levels are designed in a way such that if you get your ball to the top of all bricks, it would be easier (especially in level 4 and 5) Use the level design and controllable ball direction to your advantage!  
