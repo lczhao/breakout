@@ -8,31 +8,31 @@ Each brick hit will award player with 20 score points.
 If the ball goes out of the bottom border, player lose a live.
 The game ends when the player ran out of live (3 lives in total)
 
-$ make                              # makes the executable
-$ ./breakout <frame_rate> <speed>   # plays the game with specified frame rate
+		$ make                              # makes the executable
+		$ ./breakout \[frame_rate\] \[speed\]   # plays the game with specified frame rate
                                     # and speed (default 30, 300 is set)
 
-Note: speed > frame_rate is required, and it works better when speed is
-      divisable by frame_rate (no rounding required for the program)
-      frame_rate can ranged between 30 ~ 60
+Note: speed > frame rate is required, and it works better when speed is  
+      divisable by frame_rate (no rounding required for the program)  
+      frame_rate can ranged between 30 ~ 60  
 
 Controls:
 -----------
-  This game supports both mouse and keyboard
-  +------------+--------------+-------------------+
-  | Keyboard   | Mouse        | Meaning           |
-  |------------+--------------+-------------------|
-  | A          | move left    | Move padel left   |
-  | D          | move right   | Move padel right  |
-  | Space      | left click   | Luanch the ball   |
-  | Q          |     -        | Quit the game     |
-  +------------+--------------+-------------------+
+  This game supports both mouse and keyboard  
+  +------------+--------------+-------------------+  
+  | Keyboard   | Mouse        | Meaning           |  
+  |------------+--------------+-------------------|  
+  | A          | move left    | Move padel left   |  
+  | D          | move right   | Move padel right  |  
+  | Space      | left click   | Luanch the ball   |  
+  | Q          |     -        | Quit the game     |  
+  +------------+--------------+-------------------+  
 
 Cheats:
 -----------
-  1       - level down
-  2       - level up
-  3       - give yourself 100 score
+  1       - level down  
+  2       - level up  
+  3       - give yourself 100 score  
 
 Features
 -----------
@@ -51,6 +51,6 @@ Features
     start screen
 
 **Pro tip:**
-  Levels are designed in a way such that if you get your ball to the top
-  of all bricks, it would be easier (especially in level 4 and 5)
-  Use the level design and controllable ball direction to your advantage!
+  Levels are designed in a way such that if you get your ball to the top  
+  of all bricks, it would be easier (especially in level 4 and 5)  
+  Use the level design and controllable ball direction to your advantage!  
