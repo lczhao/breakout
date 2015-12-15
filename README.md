@@ -9,7 +9,7 @@ If the ball goes out of the bottom border, player lose a live.
 The game ends when the player ran out of live (3 lives in total)
 
 		$ make                              # makes the executable
-		$ ./breakout \[frame_rate\] \[speed\]   # plays the game with specified frame rate
+		$ ./breakout [frame_rate] [speed]   # plays the game with specified frame rate
                                     # and speed (default 30, 300 is set)
 
 Note: speed > frame rate is required, and it works better when speed is  
@@ -19,14 +19,33 @@ Note: speed > frame rate is required, and it works better when speed is
 Controls:
 -----------
   This game supports both mouse and keyboard  
-  +------------+--------------+-------------------+  
-  | Keyboard   | Mouse        | Meaning           |  
-  |------------+--------------+-------------------|  
-  | A          | move left    | Move padel left   |  
-  | D          | move right   | Move padel right  |  
-  | Space      | left click   | Luanch the ball   |  
-  | Q          |     -        | Quit the game     |  
-  +------------+--------------+-------------------+  
+<table>
+  <tr>
+    <td>Keyboard</td>
+    <td>Mouse</td>
+    <td>Meaning</td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>Move left</td>
+    <td>Move Padel left</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>Move right</td>
+    <td>Move padel right</td>
+  </tr>
+  <tr>
+    <td>Space</td>
+    <td>Left click</td>
+    <td>Lunch ball</td>
+  </tr>
+  <tr>
+    <td>Q</td>
+    <td> - </td>
+    <td>Quit Game</td>
+  </tr>
+</table>
 
 Cheats:
 -----------
